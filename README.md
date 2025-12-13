@@ -1,1 +1,7 @@
-<div align="center"> <img height="137px" src="https://github-readme-stats.vercel.app/api?username=xy200303&hide_title=&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" /> </div>
+<div width ="100%" display="flex" align="center">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=sakurapuare&theme=dracula&rank_icon=percentile&show_icons=true&show=prs_merged,reviews,prs_merged_percentage">
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=sakurapuare&theme=default&rank_icon=percentile&show_icons=true&show=prs_merged,reviews,prs_merged_percentage">
+        <img src="https://github-readme-stats.vercel.app/api?username=xy200303&theme=default&rank_icon=percentile&show_icons=true&show=prs_merged,reviews,prs_merged_percentage" alt="SakuraPuare's GitHub Stats" width="48%" align="top">
+    </picture>
+</div>
