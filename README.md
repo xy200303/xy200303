@@ -34,9 +34,10 @@
 <p align="center">
 
 ---
-## 📬 联系方式
+## 📬 其他平台
 
-- 📫 邮箱：[3483421977@qq.com](mailto:3483421977@qq.com)
+- 📫 CSDN：[极客小云](https://blog.csdn.net/m0_73370855?type=blog)
+- 🔬 ORCID：[0009-0008-4777-304X](https://orcid.org/0009-0008-4777-304X)
 
 <details><summary>点击展开/折叠内容</summary>
 
