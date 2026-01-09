@@ -1,3 +1,4 @@
+<!--横幅信息-->
 <p align="center">
     <!-- https://github.com/kyechan99/capsule-render -->
     <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hello%20World&section=header&reversal=false&fontSize=90&fontAlignY=40&animation=twinkling&desc=I%20am%20XiaoYun&descSize=30&descAlignY=60" alt="Hello World" title="Hello World"/>
@@ -17,14 +18,16 @@
     <!-- https://github.com/Ashutosh00710/github-readme-activity-graph -->
     <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=xy200303&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" title="Activity Graph" />
 </p>
+
 <p align="center">
     <!-- https://github.com/LelouchFR/skill-icons -->
-    <img width="800" height="32" src="https://go-skill-icons.vercel.app/api/icons?i=py,html,css,catppuccin&titles=true" alt="Skill Icons" title="Skill Icons">
+    <img width="800" height="32" src="https://go-skill-icons.vercel.app/api/icons?i=py,html,css,golang,java,git,huggingface&titles=true" alt="Skill Icons" title="Skill Icons">
 </p>
+
 <p align="center">
     <!-- https://github.com/badges/shields --> 
     <a href="https://github.com/xy200303"><img src="https://img.shields.io/badge/GitHub-xy200303-blue?logo=github" alt="GitHub" title="GitHub" /></a>
-    <a href="https://space.bilibili.com/544425780"><img src="https://space.bilibili.com/319065773?spm_id_from=333.788.0.0" alt="哔哩哔哩" title="哔哩哔哩" /></a>
+    <a href="https://space.bilibili.com/544425780"><img src="https://img.shields.io/badge/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%5F极客小云%5F-pink?logo=bilibili" alt="哔哩哔哩" title="哔哩哔哩" /></a>
     <!-- https://github.com/antonkomarev/github-profile-views-counter -->
     <a href="https://github.com/xy200303"><img src="https://komarev.com/ghpvc/?username=xy200303&label=Profile+Views" alt="Profile Views" title="Profile Views" /></a>
 </p>
