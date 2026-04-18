@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=你的WakaTime用户名&layout=compact&hide_border=true" alt="WakaTime Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=xiaoyun&layout=compact&hide_border=true" alt="WakaTime Stats" />
 </p>
 
 <p align="center">
