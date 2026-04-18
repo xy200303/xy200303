@@ -18,12 +18,13 @@
     <!-- https://github.com/Ashutosh00710/github-readme-activity-graph -->
     <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=xy200303&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" title="Activity Graph" />
 </p>
+
 <p align="center">
-![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell)
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell" alt="Top Langs" />
 </p>
 
 <p align="center">
-![xiaoyun's WakaTime stats](https://github-stats-extended.vercel.app/api/wakatime?username=xy200303&layout=compact&hide_border=true)
+  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=你的WakaTime用户名&layout=compact&hide_border=true" alt="WakaTime Stats" />
 </p>
 
 <p align="center">
