@@ -19,6 +19,9 @@
     <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=xy200303&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" title="Activity Graph" />
 </p>
 
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell)
+![xiaoyun's WakaTime stats](https://github-stats-extended.vercel.app/api/wakatime?username=xy200303&layout=compact&hide_border=true)
+
 <p align="center">
     <!-- https://github.com/LelouchFR/skill-icons -->
     <img width="800" height="32" src="https://go-skill-icons.vercel.app/api/icons?i=py,html,css,golang,java,git,huggingface&titles=true" alt="Skill Icons" title="Skill Icons">
