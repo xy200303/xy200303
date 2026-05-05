@@ -27,7 +27,7 @@ jobs:
                 token: ${{ secrets.METRICS_TOKEN }}
                 
                 # Options
-                user: SakuraPuare
+                user: xy200303
                 template: classic
                 base: header, activity, community, repositories, metadata
                 base_hireable: yes
@@ -94,13 +94,4 @@ jobs:
                 plugin_wakatime_repositories_visibility: all
                 plugin_wakatime_sections: time, projects, languages, editors, os
                 plugin_wakatime_url: https://wakatime.com
-                plugin_wakatime_user: SakuraPuare
-                
-                plugin_steam: no
-                plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-                plugin_steam_achievements_limit: 0
-                plugin_steam_games_limit: 0
-                plugin_steam_playtime_threshold: 0
-                plugin_steam_recent_games_limit: 1
-                plugin_steam_sections: player, most-played, recently-played
-                plugin_steam_user: "76561198874274271"
+                plugin_wakatime_user: xiaoyun
