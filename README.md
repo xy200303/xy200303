@@ -32,6 +32,11 @@
     <img width="800" height="32" src="https://go-skill-icons.vercel.app/api/icons?i=py,html,css,golang,java,git,huggingface&titles=true" alt="Skill Icons" title="Skill Icons">
 </p>
 
+<picture>
+        <source media="(max-width: 767px)" srcset="./github-metrics.svg" width="100%">
+        <img src="./github-metrics.svg" alt="Metrics" width="49%" align="top">
+    </picture>
+
 <p align="center">
     <!-- https://github.com/badges/shields --> 
     <a href="https://github.com/xy200303"><img src="https://img.shields.io/badge/GitHub-xy200303-blue?logo=github" alt="GitHub" title="GitHub" /></a>
