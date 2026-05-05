@@ -1,98 +1,103 @@
-<!--横幅信息-->
 <p align="center">
-    <!-- https://github.com/kyechan99/capsule-render -->
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hello%20World&section=header&reversal=false&fontSize=90&fontAlignY=40&animation=twinkling&desc=I%20am%20XiaoYun&descSize=30&descAlignY=60" alt="Hello World" title="Hello World"/>
-</p>
-<p align="center">
-    <!-- https://github.com/DenverCoder1/readme-typing-svg -->
-    <img width="800" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1000&width=435&lines=Welcome+to+my+Github+profile+page;%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84Github%E4%B8%BB%E9%A1%B5" alt="Hello World" title="Hello World"/>
-</p>
-<p align="center">
-    <!-- https://github.com/anuraghazra/github-readme-stats -->
-    <!-- rules: https://github.com/anuraghazra/github-readme-stats/blob/master/src/calculateRank.js -->
-    <img width="400" src="https://github-readme-stats-pi-pied-31.vercel.app/api?username=xy200303&theme=transparent&show_icons=true&hide_border=true&show=reviews&hide_title=true&&number_format=long&include_all_commits=true" alt="Profile Stats" title="Profile Stats" />
-    <!-- https://github.com/DenverCoder1/github-readme-streak-stats -->
-    <img width="400" src="https://github-readme-streak-stats-six-peach.vercel.app?user=xy200303&theme=transparent&hide_border=true&locale=zh_Hans&date_format=%5BY.%5Dn.j" alt="Streak Stats" title="Streak Stats" />
-</p>
-<p align="center">
-    <!-- https://github.com/Ashutosh00710/github-readme-activity-graph -->
-    <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=xy200303&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" title="Activity Graph" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&text=XiaoYun&fontSize=72&fontAlignY=38&desc=Code%20%7C%20Learn%20%7C%20Share&descAlignY=60&descSize=24&animation=fadeIn" alt="XiaoYun Banner" />
 </p>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell" alt="Top Langs" />
+  <img width="780" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&center=true&vCenter=true&width=780&lines=Welcome+to+my+GitHub+profile;用代码记录成长，用项目沉淀热爱" alt="Typing Intro" />
+</p>
+
+<h1 align="center">极客小云 | XiaoYun</h1>
+
+<p align="center">
+  热爱编程、持续学习，也乐于把过程整理成可见的作品。<br />
+  这里记录我的项目实践、开发轨迹、技术积累，以及一点点长期主义。
 </p>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=xiaoyun&layout=compact&hide_border=true" alt="WakaTime Stats" />
+  <a href="https://github.com/xy200303"><img src="https://img.shields.io/badge/GitHub-xy200303-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <a href="https://space.bilibili.com/319065773?spm_id_from=333.1007.0.0"><img src="https://img.shields.io/badge/Bilibili-_极客小云_-FB7299?style=for-the-badge&logo=bilibili&logoColor=white" alt="Bilibili" /></a>
+  <a href="https://blog.csdn.net/m0_73370855?type=blog"><img src="https://img.shields.io/badge/CSDN-技术博客-FC5531?style=for-the-badge" alt="CSDN" /></a>
+  <a href="https://orcid.org/0009-0008-4777-304X"><img src="https://img.shields.io/badge/ORCID-0009--0008--4777--304X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
 </p>
 
 <p align="center">
-    <!-- https://github.com/LelouchFR/skill-icons -->
-    <img width="800" height="32" src="https://go-skill-icons.vercel.app/api/icons?i=py,html,css,golang,java,git,huggingface&titles=true" alt="Skill Icons" title="Skill Icons">
+  <img src="https://komarev.com/ghpvc/?username=xy200303&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
-
-<picture>
-        <source media="(max-width: 767px)" srcset="./github-metrics.svg" width="100%">
-        <img src="./github-metrics.svg" alt="Metrics" width="49%" align="top">
-    </picture>
-
-<p align="center">
-    <!-- https://github.com/badges/shields --> 
-    <a href="https://github.com/xy200303"><img src="https://img.shields.io/badge/GitHub-xy200303-blue?logo=github" alt="GitHub" title="GitHub" /></a>
-    <a href="https://space.bilibili.com/319065773?spm_id_from=333.1007.0.0"><img src="https://img.shields.io/badge/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%5F极客小云%5F-pink?logo=bilibili" alt="哔哩哔哩" title="哔哩哔哩" /></a>
-    <!-- https://github.com/antonkomarev/github-profile-views-counter -->
-    <a href="https://github.com/xy200303"><img src="https://komarev.com/ghpvc/?username=xy200303&label=Profile+Views" alt="Profile Views" title="Profile Views" /></a>
-</p>
-<p align="center">
 
 ---
-## 📬 其他平台
 
-- 📫 CSDN：[极客小云](https://blog.csdn.net/m0_73370855?type=blog)
-- 🔬 ORCID：[0009-0008-4777-304X](https://orcid.org/0009-0008-4777-304X)
+## 关于我
 
-<details><summary>点击展开/折叠内容</summary>
+- 关注 `Python`、`Go`、`Java`、`HTML/CSS` 等方向，也会接触一些工程化与内容创作相关工具。
+- 喜欢把学习过程沉淀成项目、笔记和可复用的实践经验。
+- 希望这个主页既能展示活跃度，也能留下自己持续迭代的痕迹。
 
----
-  
-### 技术栈 / Tech Stack
+## GitHub 数据面板
 
-#### 🧠 编程语言 / Programming Languages
+<p align="center">
+  <img width="400" src="https://github-readme-stats-pi-pied-31.vercel.app/api?username=xy200303&theme=transparent&show_icons=true&hide_border=true&show=reviews&hide_title=true&number_format=long&include_all_commits=true" alt="Profile Stats" />
+  <img width="400" src="https://github-readme-streak-stats-six-peach.vercel.app?user=xy200303&theme=transparent&hide_border=true&locale=zh_Hans&date_format=%5BY.%5Dn.j" alt="Streak Stats" />
+</p>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C](https://img.shields.io/badge/C-gray?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+<p align="center">
+  <img width="820" src="https://github-readme-activity-graph.vercel.app/graph?username=xy200303&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" />
+</p>
 
-#### 🎨 样式表 / Stylesheet
+## 开发快照
 
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+<p align="center">
+  <img width="390" src="https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell" alt="Top Languages" />
+  <img width="390" src="https://github-stats-extended.vercel.app/api/wakatime?username=xiaoyun&layout=compact&hide_border=true" alt="WakaTime Stats" />
+</p>
 
-#### 🧾 标记语言 / Markup Languages
+## 常用技术
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-black?style=flat-square&logo=json&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
+<p align="center">
+  <img width="820" height="32" src="https://go-skill-icons.vercel.app/api/icons?i=py,html,css,golang,java,git,huggingface&titles=true" alt="Skill Icons" />
+</p>
 
+<details>
+  <summary><strong>展开查看详细技术标签</strong></summary>
+  <br />
 
-#### 🖥️ 操作系统 / Operating Systems
+  **编程语言**
 
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![MoreLinux](https://img.shields.io/badge/MoreLinux-black?style=flat-square&logo=linux&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+  ![C](https://img.shields.io/badge/C-5C6BC0?style=flat-square&logo=c&logoColor=white)
+  ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+  ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-#### 🗃️ 数据库 / Databases
+  **前端与标记**
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+  ![JSON](https://img.shields.io/badge/JSON-222222?style=flat-square&logo=json&logoColor=white)
+  ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
-#### 🎮 其他 / Others
+  **系统与数据库**
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Minecraft](https://img.shields.io/badge/Minecraft-3C9A1A?style=flat-square&logo=minecraft&logoColor=white)
-![Genshin](https://img.shields.io/badge/Genshin-3C9A1A?style=flat-square&logo==genshin&logoColor=white)
----
+  ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+  ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+  ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+  ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
+  **其他工具与兴趣**
+
+  ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+  ![Minecraft](https://img.shields.io/badge/Minecraft-3C9A1A?style=flat-square&logo=minecraft&logoColor=white)
+  ![Genshin](https://img.shields.io/badge/Genshin-6C63FF?style=flat-square)
+</details>
+
+## 更多信息
+
+- 哔哩哔哩：[_极客小云_](https://space.bilibili.com/319065773?spm_id_from=333.1007.0.0)
+- CSDN：[极客小云](https://blog.csdn.net/m0_73370855?type=blog)
+- ORCID：[0009-0008-4777-304X](https://orcid.org/0009-0008-4777-304X)
+
+<details>
+  <summary><strong>展开查看 GitHub Metrics 全景面板</strong></summary>
+  <br />
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
 </details>
