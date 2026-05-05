@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img width="780" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&center=true&vCenter=true&width=780&lines=Welcome+to+my+GitHub+profile;用代码记录成长，用项目沉淀热爱" alt="Typing Intro" />
+  <img width="780" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&center=true&vCenter=true&width=780&lines=Welcome+to+my+GitHub+profile" alt="Typing Intro" />
 </p>
 
 <h1 align="center">极客小云 | XiaoYun</h1>
