@@ -32,22 +32,27 @@
 - 喜欢把学习过程沉淀成项目、笔记和可复用的实践经验。
 - 希望这个主页既能展示活跃度，也能留下自己持续迭代的痕迹。
 
-## GitHub 数据面板
+## GitHub 总览
+
+<table>
+  <tr>
+    <td width="42%" valign="top">
+      <img src="https://github-readme-stats-pi-pied-31.vercel.app/api?username=xy200303&theme=transparent&show_icons=true&hide_border=true&show=reviews&hide_title=true&number_format=long&include_all_commits=true" alt="Profile Stats" width="100%" />
+      <br />
+      <img src="https://github-readme-streak-stats-six-peach.vercel.app?user=xy200303&theme=transparent&hide_border=true&locale=zh_Hans&date_format=%5BY.%5Dn.j" alt="Streak Stats" width="100%" />
+      <br />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell" alt="Top Languages" width="100%" />
+      <br />
+      <img src="https://github-stats-extended.vercel.app/api/wakatime?username=xiaoyun&layout=compact&hide_border=true" alt="WakaTime Stats" width="100%" />
+    </td>
+    <td width="58%" valign="top">
+      <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img width="400" src="https://github-readme-stats-pi-pied-31.vercel.app/api?username=xy200303&theme=transparent&show_icons=true&hide_border=true&show=reviews&hide_title=true&number_format=long&include_all_commits=true" alt="Profile Stats" />
-  <img width="400" src="https://github-readme-streak-stats-six-peach.vercel.app?user=xy200303&theme=transparent&hide_border=true&locale=zh_Hans&date_format=%5BY.%5Dn.j" alt="Streak Stats" />
-</p>
-
-<p align="center">
-  <img width="820" src="https://github-readme-activity-graph.vercel.app/graph?username=xy200303&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" />
-</p>
-
-## 开发快照
-
-<p align="center">
-  <img width="390" src="https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell" alt="Top Languages" />
-  <img width="390" src="https://github-stats-extended.vercel.app/api/wakatime?username=xiaoyun&layout=compact&hide_border=true" alt="WakaTime Stats" />
+  <img width="900" src="https://github-readme-activity-graph.vercel.app/graph?username=xy200303&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" />
 </p>
 
 ## 常用技术
@@ -95,9 +100,3 @@
 - 哔哩哔哩：[_极客小云_](https://space.bilibili.com/319065773?spm_id_from=333.1007.0.0)
 - CSDN：[极客小云](https://blog.csdn.net/m0_73370855?type=blog)
 - ORCID：[0009-0008-4777-304X](https://orcid.org/0009-0008-4777-304X)
-
-<details>
-  <summary><strong>展开查看 GitHub Metrics 全景面板</strong></summary>
-  <br />
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
-</details>
