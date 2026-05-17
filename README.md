@@ -41,7 +41,7 @@
       <br />
       <img src="https://github-readme-streak-stats-six-peach.vercel.app?user=xy200303&theme=transparent&hide_border=true&locale=zh_Hans&date_format=%5BY.%5Dn.j" alt="Streak Stats" width="100%" />
       <br />
-      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell" alt="Top Languages" width="100%" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=xiaoyun&layout=compact&hide=powershell" alt="Top Languages" width="100%" />
       <br />
       <img src="https://github-stats-extended.vercel.app/api/wakatime?username=xiaoyun&layout=compact&hide_border=true" alt="WakaTime Stats" width="100%" />
     </td>
