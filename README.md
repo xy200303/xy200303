@@ -43,7 +43,7 @@
       <br />
       <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell" alt="Top Languages" width="100%" />
       <br />
-      <img src="https://github-stats-extended.vercel.app/api/wakatime?username=xiaoyun&layout=compact&hide_border=true" alt="WakaTime Stats" width="100%" />
+      <img src="https://github-stats-extended.vercel.app/api/wakatime?username=@xiaoyun&layout=compact&hide_border=true" alt="WakaTime Stats" width="100%" />
     </td>
     <td width="58%" valign="top">
       <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
