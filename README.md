@@ -52,7 +52,7 @@
 </table>
 
 <p align="center">
-  <img width="900" src="https://github-readme-activity-graph.vercel.app/graph?username=xiaoyun&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" />
+  <img width="900" src="https://github-readme-activity-graph.vercel.app/graph?username=xy200303&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" />
 </p>
 
 ## 常用技术
