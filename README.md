@@ -21,6 +21,12 @@
 </p>
 
 <p align="center">
+  <a href="https://hub.docker.com/u/xy200303"><img src="https://img.shields.io/badge/Docker%20Hub-xy200303-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Hub" /></a>
+  <a href="https://www.npmjs.com/~dev_xiaoyun"><img src="https://img.shields.io/badge/npm-dev__xiaoyun-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a>
+  <a href="https://pypi.org/user/xiaoyun2003/"><img src="https://img.shields.io/badge/PyPI-xiaoyun2003-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" /></a>
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=xy200303&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
@@ -100,3 +106,6 @@
 - 哔哩哔哩：[_极客小云_](https://space.bilibili.com/319065773?spm_id_from=333.1007.0.0)
 - CSDN：[极客小云](https://blog.csdn.net/m0_73370855?type=blog)
 - ORCID：[0009-0008-4777-304X](https://orcid.org/0009-0008-4777-304X)
+- Docker Hub：[xy200303](https://hub.docker.com/u/xy200303)
+- npm：[dev_xiaoyun](https://www.npmjs.com/~dev_xiaoyun)
+- PyPI：[xiaoyun2003](https://pypi.org/user/xiaoyun2003/)
