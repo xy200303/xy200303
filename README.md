@@ -50,7 +50,7 @@
       <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell" alt="Top Languages" width="100%" />
       <br />
       <img src="https://github-stats-extended.vercel.app/api/wakatime?username=@xiaoyun&layout=compact&hide_border=true" alt="WakaTime Stats" width="100%" />
-      <a href="https://githubroast.dev/u/xy200303"><img src="https://githubroast.dev/api/card/xy200303" alt="GitHub Roast" width="600" /></a>
+      <a href="https://ghfind.com/u/xy200303?ref=badge"><img src="https://ghfind.com/api/card/xy200303?theme=light&variant=contrib&qr=1" alt="GitHub Roast" width="600" /></a>
     </td>
     <td width="58%" valign="top">
       <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
