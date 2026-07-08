@@ -38,6 +38,32 @@
 - 喜欢把学习过程沉淀成项目、笔记和可复用的实践经验。
 - 希望这个主页既能展示活跃度，也能留下自己持续迭代的痕迹。
 
+## 开源贡献与项目亮点
+
+### 近期开源贡献
+
+- **[NousResearch/hermes-agent #40663](https://github.com/NousResearch/hermes-agent/pull/40663)** – `fix(approval): detect shell-expanded command names`：在命令位置做 shell word 级别的变体扫描与去混淆，识别 `$(echo rm)` 这类绕过，同时避免把参数里的 `rm` 误判为真实命令。
+- **[NousResearch/hermes-agent #56184](https://github.com/NousResearch/hermes-agent/pull/56184)** – `fix(approval): close three shell-obfuscation denylist bypasses`：维护者把我的方案整合进三类 shell-obfuscation denylist bypass 的综合修复，并标注 Class 1 credit 为 `@xy200303 (#40663)`。
+- **[superdoc-dev/superdoc #3616](https://github.com/superdoc-dev/superdoc/pull/3616)** – `fix(super-editor): support nested content controls`：修复 Word `w:sdt` 嵌套 content controls 的 DOCX 导入问题，已合并。
+- **[stepfun-ai/Step-Realtime-CLI #15](https://github.com/stepfun-ai/Step-Realtime-CLI/pull/15)** – `Clear existing lint warnings`：清理现有 lint 警告。
+- **[CVHub520/X-AnyLabeling #1269](https://github.com/CVHub520/X-AnyLabeling/pull/1269)** – `feat: Improve multimodal image display annotation and YOLO label import functions`：改进多模态图像显示标注与 YOLO 标签批量导入。
+- **[CVHub520/X-AnyLabeling v3.3.7 Compare View](https://github.com/CVHub520/X-AnyLabeling/releases/tag/v3.3.7)**：多模态图像对比显示功能被纳入官方 Release，可用于红外/可见光融合、mask preview、超分等场景。
+- **[CVHub520/X-AnyLabeling #1390](https://github.com/CVHub520/X-AnyLabeling/pull/1390)** – `fix(device): isolate ONNX provider probing`。
+- **[CVHub520/X-AnyLabeling #1389](https://github.com/CVHub520/X-AnyLabeling/pull/1389)** – `fix(label_list): emit reorder only after completed drops`。
+- **[ollama/ollama #16717](https://github.com/ollama/ollama/pull/16717)** – `cmd: preserve nested file paths in multimodal parsing`。
+- **[langchain-ai/langchain #38137](https://github.com/langchain-ai/langchain/issues/38137)** – 反馈 `RootModel unions` 反序列化问题。
+- **[openai/codex #27405](https://github.com/openai/codex/issues/27405)** – 反馈 VS Code terminal 粘贴转义单行 JSON 时输入冻结问题。
+
+### 重点项目
+
+- **[AetherVectorLab/dev-mesh](https://github.com/AetherVectorLab/dev-mesh)**：给 AI 编程助手使用的 local-first 项目知识层，通过 MCP 为 Codex、Claude Code、opencode 等工具提供项目知识检索、经验沉淀、本地缓存与可选团队同步。包含 `dmx` CLI、MCP 工具、项目知识图谱、Hub Server、Vue 管理后台、VitePress 文档站与 Docker 部署。
+- **[OpenTrans](https://github.com/xy200303/OpenTrans)**：Go 编写的多协议 LLM 请求体/响应体/流式事件转换 SDK，用于 OpenAI、Claude、Gemini 等协议适配。
+- **[AiCodeAudit](https://github.com/xy200303/AiCodeAudit)**：基于大模型的代码安全审计工具，支持命令行与 Streamlit Web 界面。
+- **[image_registration_tool](https://github.com/xy200303/image_registration_tool)**：基于 PyQt6 的红外图像和可见光图像手动配准、批量处理工具，包含桌面端交互与图像处理流程。
+- **[ComfyUiApi](https://github.com/xy200303/ComfyUiApi)**：调用 ComfyUI API 的 Python 客户端库，练习 Python SDK 封装与 API 调用体验。
+- **[SafeGate](https://github.com/xy200303/SafeGate)**：可配置的 IP 风控网关/反向代理防火墙，面向域名映射、真实 IP 透传、接口风控拦截、JSON 请求体转换与访问日志审计等需求。
+- **[spec-coding-mcp](https://github.com/xy200303/spec-coding-mcp)**：给 Codex、Claude Code、OpenCode 等编程工具提供本地规格上下文的 MCP 项目，探索 AI 编程工具链的一部分。
+
 ## GitHub 总览
 
 <table>
