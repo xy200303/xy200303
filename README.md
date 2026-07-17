@@ -40,23 +40,29 @@
 
 ## 开源贡献与项目亮点
 
-### Pull Requests
+### 已合并的 Pull Requests
 
-- ![merged](https://img.shields.io/badge/-merged-8957E5?style=flat-square) **[fix(approval): detect shell-expanded command names](https://github.com/NousResearch/hermes-agent/pull/40663)** — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)  
-  在命令位置做 shell word 级别的变体扫描与去混淆，识别 `$(echo rm)` 这类绕过，同时避免把参数里的 `rm` 误判为真实命令。
-- ![merged](https://img.shields.io/badge/-merged-8957E5?style=flat-square) **[fix(approval): close three shell-obfuscation denylist bypasses](https://github.com/NousResearch/hermes-agent/pull/56184)** — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)  
-  维护者将我的方案整合进三类 shell-obfuscation denylist bypass 的综合修复，并标注 Class 1 credit 为 `@xy200303 (#40663)`。
-- ![merged](https://img.shields.io/badge/-merged-8957E5?style=flat-square) **[fix(super-editor): support nested content controls](https://github.com/superdoc-dev/superdoc/pull/3616)** — [superdoc-dev/superdoc](https://github.com/superdoc-dev/superdoc)  
-  修复 Word `w:sdt` 嵌套 content controls 的 DOCX 导入问题。
-- ![merged](https://img.shields.io/badge/-merged-8957E5?style=flat-square) **[Clear existing lint warnings](https://github.com/stepfun-ai/Step-Realtime-CLI/pull/15)** — [stepfun-ai/Step-Realtime-CLI](https://github.com/stepfun-ai/Step-Realtime-CLI)  
-  清理现有 lint 警告。
-- ![merged](https://img.shields.io/badge/-merged-8957E5?style=flat-square) **[feat: Improve multimodal image display annotation and YOLO label import functions](https://github.com/CVHub520/X-AnyLabeling/pull/1269)** — [CVHub520/X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling)  
-  改进红外/可见光双模态图像显示标注与 YOLO 标签批量导入。
+| 项目 | PR | 简介 |
+| :--- | :--- | :--- |
+| [superdoc-dev/superdoc](https://github.com/superdoc-dev/superdoc) | [#3616 fix(super-editor): support nested content controls](https://github.com/superdoc-dev/superdoc/pull/3616) | 修复 Word `w:sdt` 嵌套 content controls 的 DOCX 导入问题 |
+| [superdoc-dev/superdoc](https://github.com/superdoc-dev/superdoc) | [#3641 fix(super-editor): rethrow export docx errors](https://github.com/superdoc-dev/superdoc/pull/3641) | `Editor.exportDocx()` 失败时正确把错误抛给调用方，并补充回归测试 |
+| [stepfun-ai/Step-Realtime-CLI](https://github.com/stepfun-ai/Step-Realtime-CLI) | [#18 Fix smart compaction abort handling](https://github.com/stepfun-ai/Step-Realtime-CLI/pull/18) | 修复 smart compaction 中止处理，用户中断不再被误判为可恢复的压缩失败 |
+| [insistence/RuoYi-Vue3-FastAPI](https://github.com/insistence/RuoYi-Vue3-FastAPI) | [#82 perf: 优化项目启动速度](https://github.com/insistence/RuoYi-Vue3-FastAPI/pull/82) | 启动连通性检查改用国内可达 DNS，路由扫描跳过 `.git`、`venv` 等目录 |
+
+### 被官方采纳
+
+- ![credit](https://img.shields.io/badge/-credit-0969DA?style=flat-square) **[fix(approval): close three shell-obfuscation denylist bypasses](https://github.com/NousResearch/hermes-agent/pull/56184)** — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)  
+  我在 [#40663](https://github.com/NousResearch/hermes-agent/pull/40663) 中提出的 shell word 级变体扫描与去混淆方案（识别 `$(echo rm)` 这类绕过，同时避免误报参数里的 `rm`），被维护者整合进该综合修复，并标注 Class 1 credit 为 `@xy200303 (#40663)`。
 - ![release](https://img.shields.io/badge/-release-2EA043?style=flat-square) **[Compare View feature](https://github.com/CVHub520/X-AnyLabeling/releases/tag/v3.3.7)** — [CVHub520/X-AnyLabeling v3.3.7](https://github.com/CVHub520/X-AnyLabeling/releases/tag/v3.3.7)  
   多模态图像对比显示功能被纳入官方 Release，可用于红外/可见光融合、mask preview、超分等场景。
-- ![merged](https://img.shields.io/badge/-merged-8957E5?style=flat-square) **[fix(device): isolate ONNX provider probing](https://github.com/CVHub520/X-AnyLabeling/pull/1390)** — [CVHub520/X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling)
-- ![merged](https://img.shields.io/badge/-merged-8957E5?style=flat-square) **[fix(label_list): emit reorder only after completed drops](https://github.com/CVHub520/X-AnyLabeling/pull/1389)** — [CVHub520/X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling)
-- ![merged](https://img.shields.io/badge/-merged-8957E5?style=flat-square) **[cmd: preserve nested file paths in multimodal parsing](https://github.com/ollama/ollama/pull/16717)** — [ollama/ollama](https://github.com/ollama/ollama)
+
+### 审阅中
+
+- ![open](https://img.shields.io/badge/-open-1F883D?style=flat-square) **[cmd: preserve nested file paths in multimodal parsing](https://github.com/ollama/ollama/pull/16717)** — [ollama/ollama](https://github.com/ollama/ollama)  
+  另有 26 个 PR 正在 MoonshotAI/kimi-code、Tencent/VulnGym、NousResearch/hermes-agent 等仓库审阅中。
+
+### Issues
+
 - ![issue](https://img.shields.io/badge/-issue-F85149?style=flat-square) **[RootModel unions 反序列化问题反馈](https://github.com/langchain-ai/langchain/issues/38137)** — [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 - ![issue](https://img.shields.io/badge/-issue-F85149?style=flat-square) **[VS Code terminal input freezes when pasting escaped single-line JSON](https://github.com/openai/codex/issues/27405)** — [openai/codex](https://github.com/openai/codex)
 
