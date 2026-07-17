@@ -53,8 +53,12 @@
 
 - ![credit](https://img.shields.io/badge/-credit-0969DA?style=flat-square) **[fix(approval): close three shell-obfuscation denylist bypasses](https://github.com/NousResearch/hermes-agent/pull/56184)** — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)  
   我在 [#40663](https://github.com/NousResearch/hermes-agent/pull/40663) 中提出的 shell word 级变体扫描与去混淆方案（识别 `$(echo rm)` 这类绕过，同时避免误报参数里的 `rm`），被维护者整合进该综合修复，并标注 Class 1 credit 为 `@xy200303 (#40663)`。
+- ![credit](https://img.shields.io/badge/-credit-0969DA?style=flat-square) **[fix(skills): block path traversal via skill_view name argument](https://github.com/NousResearch/hermes-agent/pull/40566)** — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)  
+  我在 [#40521](https://github.com/NousResearch/hermes-agent/pull/40521) 中报告并修复了 `skill_view` `name` 参数的路径穿越漏洞；维护者复用现有 traversal 辅助函数收紧后在 #40566 合并，并明确标注 "Salvaged from #40521 (@xy200303)"。
 - ![release](https://img.shields.io/badge/-release-2EA043?style=flat-square) **[Compare View feature](https://github.com/CVHub520/X-AnyLabeling/releases/tag/v3.3.7)** — [CVHub520/X-AnyLabeling v3.3.7](https://github.com/CVHub520/X-AnyLabeling/releases/tag/v3.3.7)  
   多模态图像对比显示功能被纳入官方 Release，可用于红外/可见光融合、mask preview、超分等场景。
+- ![adopted](https://img.shields.io/badge/-adopted-D4A017?style=flat-square) **[Clear existing lint warnings](https://github.com/stepfun-ai/Step-Realtime-CLI/pull/15)** — [stepfun-ai/Step-Realtime-CLI](https://github.com/stepfun-ai/Step-Realtime-CLI)  
+  维护者确认该修复比官方落地的 [#10](https://github.com/stepfun-ai/Step-Realtime-CLI/pull/10) 早一个月，四个文件中两个与官方修复完全一致、两个仅差循环变量名，关闭时明确致谢并说明"并非 PR 本身有问题"。
 
 ### 审阅中
 
