@@ -34,18 +34,24 @@
 
 ## 关于我
 
-- 关注 `Python`、`Go`、`Java`、`HTML/CSS` 等方向，也会接触一些工程化与内容创作相关工具。
-- 喜欢把学习过程沉淀成项目、笔记和可复用的实践经验。
-- 希望这个主页既能展示活跃度，也能留下自己持续迭代的痕迹。
+- 主要使用 `Python`、`Go`、`TypeScript`、`Java`，关注 AI 编程工具、LLM 推理与训练基础设施、GPU Kernel、图像处理和安全工程。
+- 习惯从 Issue、PR 和可复现测试出发解决问题，再把实现沉淀为项目、工具或文档。
+- 当前重点参与 AI Agent、GPU/编译器基础设施和可视化产品方向的开源实践。
 
 ## 开源贡献与项目亮点
+
+> 以下内容根据 GitHub 公开提交与 Pull Request 整理，PR 状态截至 2026-09-14。
 
 ### 已合并的 Pull Requests
 
 | 项目 | PR | 简介 |
 | :--- | :--- | :--- |
-| [superdoc-dev/superdoc](https://github.com/superdoc-dev/superdoc) | [#3616 fix(super-editor): support nested content controls](https://github.com/superdoc-dev/superdoc/pull/3616) | 修复 Word `w:sdt` 嵌套 content controls 的 DOCX 导入问题 |
-| [superdoc-dev/superdoc](https://github.com/superdoc-dev/superdoc) | [#3641 fix(super-editor): rethrow export docx errors](https://github.com/superdoc-dev/superdoc/pull/3641) | `Editor.exportDocx()` 失败时正确把错误抛给调用方，并补充回归测试 |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [#10790 Fix fp8 block dequant fallback on pre-sm89 GPUs](https://github.com/unslothai/unsloth/pull/10790) | 修复低于 `sm89` 架构的 GPU 执行 FP8 block dequant 时错误进入不支持的 Triton Kernel，恢复 PyTorch fallback |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [#10797 Clear the metadata directory cache before scanning installed records](https://github.com/unslothai/unsloth/pull/10797) | 清理安装元数据目录缓存，使同一进程内新增或损坏的 `*.dist-info` 能被安装校验及时发现 |
+| [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | [#1111 Restore backend dispatch under `torch.compiler.disable`](https://github.com/fla-org/flash-linear-attention/pull/1111) | 修正装饰器顺序，避免 `torch.compiler.disable` 丢失 KDA backend dispatch |
+| [Tencent/tdesign-common](https://github.com/Tencent/tdesign-common) | [#2639 fix(Button): 修复自定义 SVG 图标与文字的间距](https://github.com/Tencent/tdesign-common/pull/2639) | 为普通 SVG 图标补齐 Button 图标与文本之间的间距，并通过项目测试 |
+| [superdoc/docx-editor](https://github.com/superdoc/docx-editor) | [#3616 fix(super-editor): support nested content controls](https://github.com/superdoc/docx-editor/pull/3616) | 修复 Word `w:sdt` 嵌套 content controls 的 DOCX 导入问题 |
+| [superdoc/docx-editor](https://github.com/superdoc/docx-editor) | [#3641 fix(super-editor): rethrow export docx errors](https://github.com/superdoc/docx-editor/pull/3641) | `Editor.exportDocx()` 失败时正确把错误抛给调用方，并补充回归测试 |
 | [stepfun-ai/Step-Realtime-CLI](https://github.com/stepfun-ai/Step-Realtime-CLI) | [#18 Fix smart compaction abort handling](https://github.com/stepfun-ai/Step-Realtime-CLI/pull/18) | 修复 smart compaction 中止处理，用户中断不再被误判为可恢复的压缩失败 |
 | [insistence/RuoYi-Vue3-FastAPI](https://github.com/insistence/RuoYi-Vue3-FastAPI) | [#82 perf: 优化项目启动速度](https://github.com/insistence/RuoYi-Vue3-FastAPI/pull/82) | 启动连通性检查改用国内可达 DNS，路由扫描跳过 `.git`、`venv` 等目录 |
 
@@ -60,20 +66,45 @@
 - ![adopted](https://img.shields.io/badge/-adopted-D4A017?style=flat-square) **[Clear existing lint warnings](https://github.com/stepfun-ai/Step-Realtime-CLI/pull/15)** — [stepfun-ai/Step-Realtime-CLI](https://github.com/stepfun-ai/Step-Realtime-CLI)  
   维护者确认该修复比官方落地的 [#10](https://github.com/stepfun-ai/Step-Realtime-CLI/pull/10) 早一个月，四个文件中两个与官方修复完全一致、两个仅差循环变量名，关闭时明确致谢并说明"并非 PR 本身有问题"。
 
-### 审阅中
+### 近期 Pull Requests
 
-- ![open](https://img.shields.io/badge/-open-1F883D?style=flat-square) **[cmd: preserve nested file paths in multimodal parsing](https://github.com/ollama/ollama/pull/16717)** — [ollama/ollama](https://github.com/ollama/ollama)  
-  另有 26 个 PR 正在 MoonshotAI/kimi-code、Tencent/VulnGym、NousResearch/hermes-agent 等仓库审阅中。
+- ![open](https://img.shields.io/badge/-open-1F883D?style=flat-square) **[TileLang #3205](https://github.com/tile-ai/tilelang/pull/3205)**、**[#3206](https://github.com/tile-ai/tilelang/pull/3206)**、**[#3207](https://github.com/tile-ai/tilelang/pull/3207)** — 修复 `T.clamp` 的 NaN 传播、CUDA Kernel 中 host-only assert，以及输出参数位于动态 shape 输入之前时的 JIT 分配错误。
+- ![open](https://img.shields.io/badge/-open-1F883D?style=flat-square) **[Flash Linear Attention #1239](https://github.com/fla-org/flash-linear-attention/pull/1239)**、**[#1242](https://github.com/fla-org/flash-linear-attention/pull/1242)**、**[#1244](https://github.com/fla-org/flash-linear-attention/pull/1244)** — 修复 chunk-state Kernel 的 CUDA 网格上限问题，以及 KDA/GDN-2 `safe_gate` 对未来 token 的数值依赖。
+- ![open](https://img.shields.io/badge/-open-1F883D?style=flat-square) **[FlashKDA #27](https://github.com/MoonshotAI/FlashKDA/pull/27)**、**[#28](https://github.com/MoonshotAI/FlashKDA/pull/28)** — 增加可微分 CPU KDA backend 与完整 CUDA 训练路径，覆盖前向、反向和研究验证场景。
+- ![open](https://img.shields.io/badge/-open-1F883D?style=flat-square) **[Unsloth #10796](https://github.com/unslothai/unsloth/pull/10796)** — 为 GPU inference smoke test 的 Hub 下载增加超时边界，避免慢连接阻塞整个测试套件。
+- ![open](https://img.shields.io/badge/-open-1F883D?style=flat-square) **[Kimi Code #2498](https://github.com/MoonshotAI/kimi-code/pull/2498)**、**[#2499](https://github.com/MoonshotAI/kimi-code/pull/2499)** — 修复不可达阈值导致的自动压缩循环，并为无工具进展的 goal continuation 增加退避策略。
+- ![open](https://img.shields.io/badge/-open-1F883D?style=flat-square) **[ncnn #6844](https://github.com/Tencent/ncnn/pull/6844)**、**[#6845](https://github.com/Tencent/ncnn/pull/6845)** — 修复非整数缩放插值与 light mode 下外部 `Mat` 的处理问题，并补充回归测试。
+- ![open](https://img.shields.io/badge/-open-1F883D?style=flat-square) **[Tencent Hunyuan Hy3 #53](https://github.com/Tencent-Hunyuan/Hy3/pull/53)**、**[#103](https://github.com/Tencent-Hunyuan/Hy3/pull/103)** — 提交数据分析 MCP Server 与混元多模型驱动的 ArchAgent 空间设计工作台。
+- ![open](https://img.shields.io/badge/-open-1F883D?style=flat-square) **[ollama #16717](https://github.com/ollama/ollama/pull/16717)** — 保留多模态解析中的嵌套文件路径。
+
+GitHub 公开搜索当前记录有 40 个开放 PR，覆盖 MoonshotAI、Tencent、NousResearch、Unsloth、TileLang、Flash Linear Attention 等项目。
+
+### 工作亮点
+
+- **AI 基础设施与 GPU Kernel**：围绕 Flash Linear Attention、FlashKDA 和 TileLang，持续处理 CUDA 训练路径、Triton backend dispatch、动态 shape、Kernel 代码生成和门控注意力数值正确性问题。
+- **稳定性与工程质量**：在 Unsloth、Kimi Code、Step-Realtime-CLI、ncnn 等项目中补充 fallback、缓存失效、超时、中止传播、退避和回归测试，重点解决“异常被吞掉”或“测试无限等待”类问题。
+- **安全与平台治理**：迭代 [Fenx 合规监控平台](https://github.com/xy200303/login-intercept-tool)，完成 JWT 双令牌、登录 IP 记录管理、管理员与任务权限控制、外连配置和元数据缓存等能力。
+- **色彩计算与可视化**：完成 [shise-engine](https://github.com/xy200303/shise-engine) 与 [拾色·东方](https://github.com/xy200303/shise-dongfang) 的 OKLCH 色阶引擎、传统色检索、WCAG/APCA 对比、3D 星图和器物展示。
 
 ### Issues
 
 - ![issue](https://img.shields.io/badge/-issue-F85149?style=flat-square) **[RootModel unions 反序列化问题反馈](https://github.com/langchain-ai/langchain/issues/38137)** — [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 - ![issue](https://img.shields.io/badge/-issue-F85149?style=flat-square) **[VS Code terminal input freezes when pasting escaped single-line JSON](https://github.com/openai/codex/issues/27405)** — [openai/codex](https://github.com/openai/codex)
 
-### Recent Projects
+### 最近更新的项目
 
-- [AetherVectorLab/dev-mesh](https://github.com/AetherVectorLab/dev-mesh) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)  
-  给 AI 编程助手使用的 local-first 项目知识层，通过 MCP 为 Codex、Claude Code、opencode 等工具提供项目知识检索、经验沉淀、本地缓存与可选团队同步。
+- [Fenx 合规监控平台](https://github.com/xy200303/login-intercept-tool) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+  面向登录 IP 记录、账号与任务管理的轻量合规监控平台，采用 Go、PostgreSQL、JWT 双令牌和 Docker Compose 部署。
+- [拾色 · 东方](https://github.com/xy200303/shise-dongfang) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+  537 只中国传统色主题馆，集成 OKLCH 色阶、图片取色、配色实验室、TDesign Token 沙盒、3D 星图和器物展示。
+- [拾色引擎 shise-engine](https://github.com/xy200303/shise-engine) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+  基于 OKLCH 的感知均匀色阶与 TDesign Design Token 生成引擎，已发布 `v1.2.0`，支持作为 npm/git 依赖使用。
+- [ArchAgent](https://github.com/xy200303/ArchAgent) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+  混元多模型驱动的对话式空间设计工作台，从自然语言或参考图片出发，完成设计决策、3D 资产生成、可编辑场景搭建与多格式导出。
+- [Spec Kimi](https://github.com/xy200303/spec-kimi-code) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+  基于 Kimi Code CLI 的 spec-driven 分支，将自然语言开发流程转换为可追踪的规格驱动工作流，已发布 `spec-kimi` `1.0.1`。
+- [AetherVectorLab/dev-mesh](https://github.com/AetherVectorLab/dev-mesh) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+  给 AI 编程助手使用的 local-first 项目知识层，通过 MCP 提供项目知识检索、经验沉淀、本地缓存与可选团队同步。
 - [OpenTrans](https://github.com/xy200303/OpenTrans) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)  
   多协议 LLM 请求体/响应体/流式事件转换 SDK，用于 OpenAI、Claude、Gemini 等协议适配。
 - [AiCodeAudit](https://github.com/xy200303/AiCodeAudit) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)  
