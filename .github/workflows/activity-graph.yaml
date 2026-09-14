@@ -1,0 +1,38 @@
+name: Update Activity Graph
+
+on:
+  schedule:
+    - cron: "37 2 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - README.md
+      - .github/workflows/activity-graph.yaml
+
+jobs:
+  activity-graph:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution activity graphs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: xy200303
+          github_token: ${{ secrets.METRICS_TOKEN || github.token }}
+          outputs: |
+            profile/activity.svg?palette=github-light
+            profile/activity-dark.svg?palette=github-dark
+
+      - name: Commit updated activity graphs
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/activity.svg profile/activity-dark.svg
+          git diff --cached --quiet || git commit -m "chore: update activity graphs [skip ci]"
+          git push

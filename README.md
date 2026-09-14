@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&text=XiaoYun&fontSize=72&fontAlignY=38&desc=AI%20Infrastructure%20%7C%20Developer%20Tools%20%7C%20Open%20Source&descAlignY=60&descSize=22&animation=fadeIn" alt="XiaoYun Banner" />
+  <strong>AI Infrastructure · Developer Tools · Open Source</strong>
 </p>
 
 <p align="center">
@@ -52,15 +52,6 @@
 ## 开源贡献与项目亮点
 
 > 以下内容根据 GitHub 公开提交与 Pull Request 整理，PR 状态截至 2026-09-14。
-
-### 开源贡献概览
-
-| 指标 | 公开记录 |
-| :--- | :--- |
-| **公开 Pull Requests** | 84 |
-| **已合并 Pull Requests** | 9 |
-| **当前开放 Pull Requests** | 40 |
-| **代表性贡献方向** | AI Agent、GPU Kernel、编译器、推理框架、UI 组件与安全工程 |
 
 ### 已合并的 Pull Requests
 
@@ -143,27 +134,23 @@ GitHub 公开搜索当前记录有 40 个开放 PR，覆盖 MoonshotAI、Tencent
 <table>
   <tr>
     <td width="42%" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=xy200303&theme=transparent&show_icons=true&hide_border=true&show=reviews&hide_title=true&number_format=long&include_all_commits=true" alt="Profile Stats" width="100%" />
+      <img src="./profile/stats.svg" alt="Profile Stats" width="100%" />
       <br />
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=xy200303&theme=transparent&hide_border=true&locale=zh_Hans&date_format=%5BY.%5Dn.j" alt="Streak Stats" width="100%" />
+      <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
       <br />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell&hide_border=true" alt="Top Languages" width="100%" />
+      <img src="./profile/top-langs.svg" alt="Top Languages" width="100%" />
     </td>
     <td width="58%" valign="top">
-      <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="./profile/activity.svg" />
+        <img src="./profile/activity.svg" alt="GitHub Activity Graph" width="100%" />
+      </picture>
     </td>
   </tr>
 </table>
 
-<p align="center">
-  <img width="900" src="https://github-readme-activity-graph.vercel.app/graph?username=xy200303&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" />
-</p>
-
 ## 技术栈
-
-<p align="center">
-  <img width="820" height="42" src="https://go-skill-icons.vercel.app/api/icons?i=py,golang,ts,react,pytorch,cuda,docker,git&titles=true" alt="Skill Icons" />
-</p>
 
 <details>
   <summary><strong>展开查看技术分类</strong></summary>
