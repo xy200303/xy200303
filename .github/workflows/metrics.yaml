@@ -1,11 +1,14 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
-    # Schedule updates (each 8 hours)
-    schedule: [{ cron: "0 */8 * * *" }]
-    # Lines below let you run workflow manually and on each commit
+    # Refresh once per day; use workflow_dispatch for an immediate update.
+    schedule: [{ cron: "0 3 * * *" }]
     workflow_dispatch:
-    push: { branches: ["main"] }
+
+concurrency:
+    group: profile-repository-updates
+    queue: max
+    cancel-in-progress: false
 
 jobs:
     github-metrics:

@@ -9,6 +9,11 @@ on:
       - README.md
       - .github/workflows/profile-cards.yaml
 
+concurrency:
+  group: profile-repository-updates
+  queue: max
+  cancel-in-progress: false
+
 jobs:
   profile-cards:
     runs-on: ubuntu-latest
@@ -43,5 +48,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/stats.svg profile/top-langs.svg
-          git diff --cached --quiet || git commit -m "chore: update profile cards [skip ci]"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update profile cards [skip ci]"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
