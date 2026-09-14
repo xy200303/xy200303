@@ -131,24 +131,28 @@ GitHub 公开搜索当前记录有 40 个开放 PR，覆盖 MoonshotAI、Tencent
 
 ## GitHub 总览
 
-<table>
-  <tr>
-    <td width="42%" valign="top">
-      <img src="./profile/stats.svg" alt="Profile Stats" width="100%" />
-      <br />
-      <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
-      <br />
-      <img src="./profile/top-langs.svg" alt="Top Languages" width="100%" />
-    </td>
-    <td width="58%" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-dark.svg" />
-        <source media="(prefers-color-scheme: light)" srcset="./profile/activity.svg" />
-        <img src="./profile/activity.svg" alt="GitHub Activity Graph" width="100%" />
-      </picture>
-    </td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <td width="42%" valign="top">
+        <img src="./profile/stats.svg" alt="Profile Stats" width="100%" />
+        <br />
+        <img src="./profile/top-langs.svg" alt="Top Languages" width="100%" />
+        <br />
+        <a href="https://ghfind.com/u/xy200303?ref=badge"><img src="https://ghfind.com/api/card/xy200303?theme=light&variant=contrib&qr=1" alt="GitHub Roast" width="100%" /></a>
+      </td>
+      <td width="58%" valign="top">
+        <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+      </td>
+    </tr>
+  </table>
+
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./profile/activity.svg" />
+      <img src="./profile/activity.svg" alt="GitHub Activity Graph" width="100%" />
+    </picture>
+  </p>
 
 ## 技术栈
 
