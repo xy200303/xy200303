@@ -1,16 +1,20 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&text=XiaoYun&fontSize=72&fontAlignY=38&desc=Code%20%7C%20Learn%20%7C%20Share&descAlignY=60&descSize=24&animation=fadeIn" alt="XiaoYun Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&text=XiaoYun&fontSize=72&fontAlignY=38&desc=AI%20Infrastructure%20%7C%20Developer%20Tools%20%7C%20Open%20Source&descAlignY=60&descSize=22&animation=fadeIn" alt="XiaoYun Banner" />
 </p>
 
 <p align="center">
-  <img width="780" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&center=true&vCenter=true&width=780&lines=Welcome+to+my+GitHub+profile" alt="Typing Intro" />
+  <img width="780" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&center=true&vCenter=true&width=780&lines=AI+Infrastructure+%C2%B7+Developer+Tools+%C2%B7+GPU+Kernels;Build+small%2C+reliable%2C+verifiable+systems" alt="Typing Intro" />
 </p>
 
 <h1 align="center">极客小云 | XiaoYun</h1>
 
 <p align="center">
-  热爱编程、持续学习，也乐于把过程整理成可见的作品。<br />
-  这里记录我的项目实践、开发轨迹、技术积累，以及一点点长期主义。
+  AI 基础设施与开发者工具方向的独立开发者、开源贡献者。<br />
+  专注把复杂问题拆解为可复现、可验证、可维护的工程实现。
+</p>
+
+<p align="center">
+  <strong>AI Infrastructure</strong> · <strong>Developer Tools</strong> · <strong>GPU Kernels</strong> · <strong>Security Engineering</strong>
 </p>
 
 <p align="center">
@@ -32,15 +36,31 @@
 
 ---
 
-## 关于我
+## 技术定位
 
-- 主要使用 `Python`、`Go`、`TypeScript`、`Java`，关注 AI 编程工具、LLM 推理与训练基础设施、GPU Kernel、图像处理和安全工程。
-- 习惯从 Issue、PR 和可复现测试出发解决问题，再把实现沉淀为项目、工具或文档。
-- 当前重点参与 AI Agent、GPU/编译器基础设施和可视化产品方向的开源实践。
+| 方向 | 技术关键词 |
+| :--- | :--- |
+| **AI Agent & Developer Tools** | MCP、CLI/SDK、spec-driven workflow、模型协议适配、上下文管理 |
+| **AI Systems & GPU** | PyTorch、Triton、CUDA、动态 Shape、推理与训练 Pipeline、Kernel 正确性 |
+| **Security & Reliability** | Shell 安全、路径穿越防护、Fallback、超时与中止传播、回归测试 |
+| **Full-stack & Visualization** | Python、Go、TypeScript、React/Vite、PostgreSQL、Redis、WebGL、OKLCH |
+
+## 个人简介
+
+我主要使用 `Python`、`Go` 和 `TypeScript`，持续参与 AI Agent、GPU/编译器基础设施、安全工程和可视化产品的开发。工作方式偏工程化：从 Issue 复现和边界条件入手，完成实现、测试与文档闭环，再将成熟方案沉淀为可复用的项目或开源贡献。
 
 ## 开源贡献与项目亮点
 
 > 以下内容根据 GitHub 公开提交与 Pull Request 整理，PR 状态截至 2026-09-14。
+
+### 开源贡献概览
+
+| 指标 | 公开记录 |
+| :--- | :--- |
+| **公开 Pull Requests** | 84 |
+| **已合并 Pull Requests** | 9 |
+| **当前开放 Pull Requests** | 40 |
+| **代表性贡献方向** | AI Agent、GPU Kernel、编译器、推理框架、UI 组件与安全工程 |
 
 ### 已合并的 Pull Requests
 
@@ -55,7 +75,7 @@
 | [stepfun-ai/Step-Realtime-CLI](https://github.com/stepfun-ai/Step-Realtime-CLI) | [#18 Fix smart compaction abort handling](https://github.com/stepfun-ai/Step-Realtime-CLI/pull/18) | 修复 smart compaction 中止处理，用户中断不再被误判为可恢复的压缩失败 |
 | [insistence/RuoYi-Vue3-FastAPI](https://github.com/insistence/RuoYi-Vue3-FastAPI) | [#82 perf: 优化项目启动速度](https://github.com/insistence/RuoYi-Vue3-FastAPI/pull/82) | 启动连通性检查改用国内可达 DNS，路由扫描跳过 `.git`、`venv` 等目录 |
 
-### 被官方采纳
+### 维护者采纳与发布成果
 
 - ![credit](https://img.shields.io/badge/-credit-0969DA?style=flat-square) **[fix(approval): close three shell-obfuscation denylist bypasses](https://github.com/NousResearch/hermes-agent/pull/56184)** — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)  
   我在 [#40663](https://github.com/NousResearch/hermes-agent/pull/40663) 中提出的 shell word 级变体扫描与去混淆方案（识别 `$(echo rm)` 这类绕过，同时避免误报参数里的 `rm`），被维护者整合进该综合修复，并标注 Class 1 credit 为 `@xy200303 (#40663)`。
@@ -79,58 +99,55 @@
 
 GitHub 公开搜索当前记录有 40 个开放 PR，覆盖 MoonshotAI、Tencent、NousResearch、Unsloth、TileLang、Flash Linear Attention 等项目。
 
+### 高价值技术贡献
+
+| 项目 / 成果 | 技术贡献 |
+| :--- | :--- |
+| [MoonshotAI/FlashKDA #28](https://github.com/MoonshotAI/FlashKDA/pull/28) | 独立使用 CUDA/CuTe 实现 KDA 完整训练路径，覆盖 gate cumsum、intra attention、WY recompute、chunk state、前向与反向 Kernel；提交涉及 39 个文件、约 8.9k 行实现。 |
+| [fla-org/flash-linear-attention #1112](https://github.com/fla-org/flash-linear-attention/pull/1112) | 将 FlashKDA CUDA training backend 接入 `chunk_kda` 的 backend dispatch，打通底层 CUDA Kernel 到上层训练框架的可选集成路径。 |
+| [kda-mla-stock](https://github.com/xy200303/kda-mla-stock) | 将 KDA/MLA 思路用于量化时间序列与股票预测实验，沉淀完整实验产物、结果分析，以及 Qlib 数据下载和本地数据包流程。 |
+
 ### 工作亮点
 
-- **AI 基础设施与 GPU Kernel**：围绕 Flash Linear Attention、FlashKDA 和 TileLang，持续处理 CUDA 训练路径、Triton backend dispatch、动态 shape、Kernel 代码生成和门控注意力数值正确性问题。
-- **稳定性与工程质量**：在 Unsloth、Kimi Code、Step-Realtime-CLI、ncnn 等项目中补充 fallback、缓存失效、超时、中止传播、退避和回归测试，重点解决“异常被吞掉”或“测试无限等待”类问题。
-- **安全与平台治理**：迭代 [Fenx 合规监控平台](https://github.com/xy200303/login-intercept-tool)，完成 JWT 双令牌、登录 IP 记录管理、管理员与任务权限控制、外连配置和元数据缓存等能力。
-- **色彩计算与可视化**：完成 [shise-engine](https://github.com/xy200303/shise-engine) 与 [拾色·东方](https://github.com/xy200303/shise-dongfang) 的 OKLCH 色阶引擎、传统色检索、WCAG/APCA 对比、3D 星图和器物展示。
+- **AI 基础设施与 GPU Kernel**：围绕 Flash Linear Attention、FlashKDA 和 TileLang，处理 CUDA 训练路径、Triton backend dispatch、动态 Shape、Kernel 代码生成和门控注意力数值正确性问题。
+- **可靠性工程**：在 Unsloth、Kimi Code、Step-Realtime-CLI、ncnn 等项目中完善 Fallback、缓存失效、超时、中止传播、退避和回归测试，覆盖从异常处理到测试基础设施的完整链路。
+- **安全工程**：针对 Shell 命令混淆、路径穿越、代理环境变量和外部输入边界等问题提交修复，关注安全策略的绕过面、误报率和可验证性。
+- **产品化与可视化**：将 OKLCH 色彩计算、TDesign Design Token、MCP、3D/WebGL 和多模型能力落地为可运行的工具与产品原型。
 
 ### Issues
 
 - ![issue](https://img.shields.io/badge/-issue-F85149?style=flat-square) **[RootModel unions 反序列化问题反馈](https://github.com/langchain-ai/langchain/issues/38137)** — [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 - ![issue](https://img.shields.io/badge/-issue-F85149?style=flat-square) **[VS Code terminal input freezes when pasting escaped single-line JSON](https://github.com/openai/codex/issues/27405)** — [openai/codex](https://github.com/openai/codex)
 
-### 最近更新的项目
+### 代表项目与作品
 
-- [Fenx 合规监控平台](https://github.com/xy200303/login-intercept-tool) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-  面向登录 IP 记录、账号与任务管理的轻量合规监控平台，采用 Go、PostgreSQL、JWT 双令牌和 Docker Compose 部署。
-- [拾色 · 东方](https://github.com/xy200303/shise-dongfang) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-  537 只中国传统色主题馆，集成 OKLCH 色阶、图片取色、配色实验室、TDesign Token 沙盒、3D 星图和器物展示。
-- [拾色引擎 shise-engine](https://github.com/xy200303/shise-engine) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-  基于 OKLCH 的感知均匀色阶与 TDesign Design Token 生成引擎，已发布 `v1.2.0`，支持作为 npm/git 依赖使用。
-- [ArchAgent](https://github.com/xy200303/ArchAgent) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-  混元多模型驱动的对话式空间设计工作台，从自然语言或参考图片出发，完成设计决策、3D 资产生成、可编辑场景搭建与多格式导出。
-- [Spec Kimi](https://github.com/xy200303/spec-kimi-code) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-  基于 Kimi Code CLI 的 spec-driven 分支，将自然语言开发流程转换为可追踪的规格驱动工作流，已发布 `spec-kimi` `1.0.1`。
-- [AetherVectorLab/dev-mesh](https://github.com/AetherVectorLab/dev-mesh) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-  给 AI 编程助手使用的 local-first 项目知识层，通过 MCP 提供项目知识检索、经验沉淀、本地缓存与可选团队同步。
-- [OpenTrans](https://github.com/xy200303/OpenTrans) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)  
-  多协议 LLM 请求体/响应体/流式事件转换 SDK，用于 OpenAI、Claude、Gemini 等协议适配。
-- [AiCodeAudit](https://github.com/xy200303/AiCodeAudit) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)  
-  基于大模型的代码安全审计工具，支持命令行与 Streamlit Web 界面。
-- [image_registration_tool](https://github.com/xy200303/image_registration_tool) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)  
-  基于 PyQt6 的红外图像和可见光图像手动配准、批量处理工具。
-- [ComfyUiApi](https://github.com/xy200303/ComfyUiApi) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)  
-  调用 ComfyUI API 的 Python 客户端库。
-- [SafeGate](https://github.com/xy200303/SafeGate) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)  
-  可配置的 IP 风控网关/反向代理防火墙，面向域名映射、真实 IP 透传、接口风控拦截、JSON 请求体转换与访问日志审计。
-- [spec-coding-mcp](https://github.com/xy200303/spec-coding-mcp) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)  
-  给 Codex、Claude Code、OpenCode 等编程工具提供本地规格上下文的 MCP 项目。
+| 项目 | 定位 | 技术关键词 |
+| :--- | :--- | :--- |
+| [拾色 · 东方](https://github.com/xy200303/shise-dongfang) | 537 色传统色主题馆，提供图片取色、配色实验室、Design Token 沙盒与 3D 展示 | React · TypeScript · OKLCH · WebGL · TDesign |
+| [shise-engine](https://github.com/xy200303/shise-engine) | 感知均匀色阶与 TDesign Design Token 生成引擎 | TypeScript · OKLCH · npm |
+| [ArchAgent](https://github.com/xy200303/ArchAgent) | 混元多模型驱动的对话式空间设计工作台，连接设计决策、3D 资产和场景导出 | Electron · React · TypeScript · Three.js |
+| [Spec Kimi](https://github.com/xy200303/spec-kimi-code) | 将 Kimi Code CLI 扩展为可追踪的 spec-driven 开发工作流 | TypeScript · CLI · ACP |
+| [AetherVectorLab/dev-mesh](https://github.com/AetherVectorLab/dev-mesh) | 为 AI 编程助手提供本地优先的项目知识层和 MCP 检索能力 | TypeScript · MCP · Automerge CRDT · JSONL · local-first |
+
+### 其他开源项目
+
+- [OpenTrans](https://github.com/xy200303/OpenTrans) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)：多协议 LLM 请求体、响应体和流式事件转换 SDK。
+- [AiCodeAudit](https://github.com/xy200303/AiCodeAudit) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)：基于大模型的代码安全审计工具，支持 CLI 与 Streamlit Web 界面。
+- [image_registration_tool](https://github.com/xy200303/image_registration_tool) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)：红外图像与可见光图像的手动配准、批量处理工具。
+- [ComfyUiApi](https://github.com/xy200303/ComfyUiApi) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)：调用 ComfyUI API 的 Python 客户端库。
+- [SafeGate](https://github.com/xy200303/SafeGate) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)：可配置的 IP 风控网关与反向代理防火墙。
+- [spec-coding-mcp](https://github.com/xy200303/spec-coding-mcp) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)：为 Codex、Claude Code、OpenCode 等编程工具提供本地规格上下文。
 
 ## GitHub 总览
 
 <table>
   <tr>
     <td width="42%" valign="top">
-      <img src="https://github-readme-stats-pi-pied-31.vercel.app/api?username=xy200303&theme=transparent&show_icons=true&hide_border=true&show=reviews&hide_title=true&number_format=long&include_all_commits=true" alt="Profile Stats" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=xy200303&theme=transparent&show_icons=true&hide_border=true&show=reviews&hide_title=true&number_format=long&include_all_commits=true" alt="Profile Stats" width="100%" />
       <br />
-      <img src="https://github-readme-streak-stats-six-peach.vercel.app?user=xy200303&theme=transparent&hide_border=true&locale=zh_Hans&date_format=%5BY.%5Dn.j" alt="Streak Stats" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=xy200303&theme=transparent&hide_border=true&locale=zh_Hans&date_format=%5BY.%5Dn.j" alt="Streak Stats" width="100%" />
       <br />
-      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell" alt="Top Languages" width="100%" />
-      <br />
-      <img src="https://github-stats-extended.vercel.app/api/wakatime?username=@xiaoyun&layout=compact&hide_border=true" alt="WakaTime Stats" width="100%" />
-      <a href="https://ghfind.com/u/xy200303?ref=badge"><img src="https://ghfind.com/api/card/xy200303?theme=light&variant=contrib&qr=1" alt="GitHub Roast" width="600" /></a>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xy200303&layout=compact&hide=powershell&hide_border=true" alt="Top Languages" width="100%" />
     </td>
     <td width="58%" valign="top">
       <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
@@ -142,42 +159,58 @@ GitHub 公开搜索当前记录有 40 个开放 PR，覆盖 MoonshotAI、Tencent
   <img width="900" src="https://github-readme-activity-graph.vercel.app/graph?username=xy200303&theme=github-compact&hide_border=true&area=true&custom_title=Activity%20Graph" alt="Activity Graph" />
 </p>
 
-## 常用技术
+## 技术栈
 
 <p align="center">
-  <img width="820" height="32" src="https://go-skill-icons.vercel.app/api/icons?i=py,html,css,golang,java,git,huggingface&titles=true" alt="Skill Icons" />
+  <img width="820" height="42" src="https://go-skill-icons.vercel.app/api/icons?i=py,golang,ts,react,pytorch,cuda,docker,git&titles=true" alt="Skill Icons" />
 </p>
 
 <details>
-  <summary><strong>展开查看详细技术标签</strong></summary>
+  <summary><strong>展开查看技术分类</strong></summary>
   <br />
 
-  **编程语言**
+  **语言与运行时**
 
+  ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+  ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
   ![C](https://img.shields.io/badge/C-5C6BC0?style=flat-square&logo=c&logoColor=white)
   ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-  ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-  **前端与标记**
+  **AI 与高性能计算**
 
+  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+  ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+  ![Triton](https://img.shields.io/badge/Triton-111111?style=flat-square&logo=triton&logoColor=white)
+  ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+  ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+  ![MCP](https://img.shields.io/badge/MCP-111827?style=flat-square)
+
+  **前端与图形**
+
+  ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+  ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+  ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-  ![JSON](https://img.shields.io/badge/JSON-222222?style=flat-square&logo=json&logoColor=white)
-  ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
+  ![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
 
-  **系统与数据库**
+  **工程基础设施**
 
-  ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
-  ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
   ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
   ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-  **其他工具与兴趣**
-
+  ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
   ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+  **标记与兴趣**
+
+  ![JSON](https://img.shields.io/badge/JSON-222222?style=flat-square&logo=json&logoColor=white)
+  ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
   ![Minecraft](https://img.shields.io/badge/Minecraft-3C9A1A?style=flat-square&logo=minecraft&logoColor=white)
   ![Genshin](https://img.shields.io/badge/Genshin-6C63FF?style=flat-square)
 </details>
